@@ -4,15 +4,17 @@
 
 Status: placeholder name · written 2026-10-17 from David's direction · **this file changes only when David agrees.**
 
+Scope clarified by David 2026-10-18: not game-specific.
+
 ## What it is
-- A tool that takes a goal (e.g. a game prompt) and produces a **prep pack**: chosen starting template, the asset kit, the relevant primitives, and a context brief, all on disk with a `pack.json` manifest.
-- A library of reusable, tested **templates and primitives** it draws from (for the first use case: web game templates and game primitives).
+- A tool that takes a goal for any kind of project and produces a **prep pack**: chosen starting template, the asset kit, the relevant primitives, and a context brief, all on disk with a `pack.json` manifest. Games are the first use case and the proving demo, not the definition.
+- A library of reusable, tested **templates and primitives** it draws from (first pack type: web game templates and game primitives; other pack types such as a data pipeline, dashboard, docs site, CLI tool or napkin component kit are possible later, not planned in detail).
 - Deterministic and inspectable: a human can open the pack and see exactly what the agent will start from.
 
 ## What it is not
 - Not an agent harness or a coding agent (that is bonfire).
 - Not the decision model (nibble makes choices; mise_en_place offers the options and assembles the result).
-- Not a general project generator for every language/framework on day one. Games first.
+- Not a generator for every language and framework on day one. Pack types are added one at a time, games first, and the design stays domain-agnostic.
 - Not the `mise` tool (jdx/mise), which David also uses. Keep the CLI name distinct (e.g. `mep`).
 
 ## The proving demo
