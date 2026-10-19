@@ -5,7 +5,7 @@
 Then read `STACK.md` (how this repo fits the others) and `docs/salvage.md` (what earlier repos offer as reference; reference only, never copy code wholesale).
 
 ## Scope guard (David, 2026-10-19)
-mise_en_place is project-agnostic. Never describe it by one use case (no game examples), and never ship templates, starter kits, premade assets or blocks. It is the agent or skills that *do* the prep for whatever task it is given.
+mise_en_place is project-agnostic. Never describe it by one use case or domain, and never ship templates, starter kits, premade assets or blocks. It is the agent or skills that *do* the prep for whatever task it is given.
 
 ## Definition of done
 Work is done when it moves the **proving demo** in INTENT.md forward and the demo can be run from the README. Build the thinnest version that runs end to end first; polish after.
